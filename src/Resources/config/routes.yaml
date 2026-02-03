@@ -1,0 +1,3 @@
+inachis_timeline:
+  resource: '../../Controller/'
+  type: attribute
