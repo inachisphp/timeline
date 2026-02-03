@@ -1,0 +1,10 @@
+services:
+  Inachis\Timeline\:
+    resource: '../../*'
+    exclude: '../../{DependencyInjection,Resources}'
+
+  Inachis\Timeline\Menu\TimelineMenuProvider:
+    tags: ['cms.menu_provider']
+
+  Inachis\Timeline\Installer\TimelineInstaller:
+    tags: ['cms.plugin_installer']
